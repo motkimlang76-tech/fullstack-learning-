@@ -1,0 +1,22 @@
+table {
+  width: 100%;
+  border-collapse: collapse; /* Prevents double borders */
+  font-family:
+    "Comic Sans MS", cursive, sans-serif; /* To match the handwritten vibe */
+}
+
+th,
+td {
+  border: 2px solid #000000; /* Crisp, dark borders */
+  padding: 12px;
+  text-align: center; /* Centers all text within the cells */
+}
+
+th {
+  font-weight: bold;
+}
+
+/* Styles just the bottom footer row */
+tfoot td {
+  background-color: #f2f2f2; /* Light gray shading */
+}
