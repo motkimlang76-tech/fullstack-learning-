@@ -1,0 +1,72 @@
+body {
+  background-image: url(https://i.pinimg.com/1200x/3c/97/9d/3c979d9908ef434429dc1ba9d83a308d.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  header {
+  }
+}
+nav a {
+  text-decoration: none;
+  color: antiquewhite;
+  margin-left: 30px;
+  font-size: 18px;
+  font-weight: bold;
+  transition: 0.3s;
+  margin: 0 20px;
+}
+.logo {
+  color: white;
+  font-style: oblique;
+  font-size: 40px;
+  font-weight: bold;
+}
+nav a:hover {
+  color: hotpink;
+  text-decoration: underline;
+}
+button {
+  background: hotpink;
+  color: white;
+
+  border: none;
+
+  padding: 12px 28px;
+
+  border-radius: 10px;
+
+  cursor: pointer;
+
+  transition: 0.3s;
+  gap: 100px;
+}
+button:hover {
+  background: black;
+  transform: scale(1.05);
+}
+.hero {
+  height: 100vh;
+  display: flex;
+  align-self: center;
+}
+.hero-content {
+  width: 505px;
+  margin-left: 80px;
+}
+.hero h1 {
+  font-size: 72px;
+  color: antiquewhite;
+  line-height: 1.1;
+}
+desc {
+  color: aliceblue;
+  font-size: 22px;
+  margin: 30 0;
+}

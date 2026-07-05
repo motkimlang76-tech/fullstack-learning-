@@ -1,0 +1,10 @@
+.box {
+  color: palevioletred;
+  font-size: 15px;
+  transform: all 0.5s;
+}
+.box:hover {
+  color: blue;
+  font-size: 20px;
+  letter-spacing: 10px;
+}
