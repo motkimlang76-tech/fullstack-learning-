@@ -3,38 +3,76 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Website</title>
+    <title>Kitty Studio | Modern Web Design</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
-    <header>
-      <h1 class="logo">kitty</h1>
-      <nav>
-        <a href="#">Home</a>
+  <body class="home-page">
+    <header class="site-header">
+      <a class="logo" href="index.html">Kitty Studio</a>
+
+      <nav class="main-nav" aria-label="Main navigation">
+        <a class="active" href="index.html">Home</a>
         <a href="about.html">About</a>
-        <a href="#">Services</a>
-        <a href="#">Projects</a>
-        <a href="#">Pricing</a>
-        <a href="#">Contact</a>
+        <a href="service.html">Services</a>
+        <a href="project.html">Projects</a>
+        <a href="pricing.html">Pricing</a>
+        <a href="contact.html">Contact</a>
       </nav>
-      <div class="header-buttons">
-        <button class="login-btn">Login</button>
-        <button class="get-started-btn">Get Started</button>
+
+      <div class="header-actions">
+        <a class="btn ghost small" href="project.html">View Work</a>
+        <a class="btn primary small" href="contact.html">Start Project</a>
       </div>
     </header>
-    <section class="hero">
-      <div class="hero-content">
-        <h1>Build Modern Websites That Inspire People</h1>
-        <p class="desc">
-          We design responsive, fast, and beautiful websites that help
-          businesses grow online.
-        </p>
-        <div class="button">
-          <button class="primary">Start Project</button>
-          <button class="secondary">View Portfolio</button>
+
+    <main>
+      <section class="hero hero-home">
+        <div class="hero-content">
+          <h1>
+            Websites that make <span>small brands</span> look ready to grow.
+          </h1>
+          <p class="desc">
+            Kitty Studio designs fast, responsive websites with clean layouts,
+            clear messaging, and a polished user experience.
+          </p>
+
+          <div class="button-row">
+            <a class="btn primary" href="contact.html">Start Project</a>
+            <a class="btn secondary" href="service.html">See Services</a>
+          </div>
         </div>
-      </div>
-      <div class="scroll">↓</div>
-    </section>
+
+        <aside class="hero-panel" aria-label="Studio highlights">
+          <div>
+            <span>50+</span>
+            <p>completed pages and practice projects</p>
+          </div>
+          <div>
+            <span>7 days</span>
+            <p>typical first homepage draft</p>
+          </div>
+          <div>
+            <span>100%</span>
+            <p>responsive layout focus</p>
+          </div>
+        </aside>
+      </section>
+
+      <section id="contact" class="cta-section">
+        <div class="container cta-box">
+          <div>
+            <p class="eyebrow">Ready to build?</p>
+            <h2>Tell Kitty Studio what you want your website to do.</h2>
+          </div>
+          <a class="btn primary" href="contact.html">Contact Studio</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Kitty Studio</p>
+      <p>Modern websites crafted with creativity and clean code.</p>
+      <p>Copyright 2026 Kitty Studio</p>
+    </footer>
   </body>
 </html>

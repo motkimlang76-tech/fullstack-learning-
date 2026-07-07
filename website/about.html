@@ -5,105 +5,481 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>About Kitty Studio</title>
     <link rel="stylesheet" href="style.css" />
-    <!-- Import Inter Font for a modern look -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <!-- Import FontAwesome for icons -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-    />
-    <!-- Link to external CSS file -->
-    <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
-    <header>
-      <h1 class="logo">kitty</h1>
-      <nav>
+  <body class="about-page">
+    <header class="site-header">
+      <a class="logo" href="index.html">Kitty Studio</a>
+
+      <nav class="main-nav" aria-label="Main navigation">
         <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="#">Services</a>
-        <a href="#">Projects</a>
-        <a href="#">Pricing</a>
-        <a href="#">Contact</a>
+        <a class="active" href="about.html">About</a>
+        <a href="service.html">Services</a>
+        <a href="project.html">Projects</a>
+        <a href="pricing.html">Pricing</a>
+        <a href="contact.html">Contact</a>
       </nav>
-      <div class="header-buttons">
-        <button class="login-btn">Login</button>
-        <button class="get-started-btn">Get Started</button>
+
+      <div class="header-actions">
+        <a class="btn ghost small" href="project.html">View Work</a>
+        <a class="btn primary small" href="contact.html">Start Project</a>
       </div>
     </header>
-    <div class="container">
-      <!-- Top Image Gallery -->
-      <div class="image-gallery">
-        <img
-          src="https://images.openai.com/static-rsc-4/bhq5FCgC4BlbBd9IYz2bAibYf57Cf7TEKX8YTpRF1vkxwTg5bJO5nZjBcuz9RHnhk0oYtzbHPasiF15EUufjV4xRwB3JmpSV-RI-sfmLISSxFiDaXXfEYOiN0ukqhn628MrD85Oe2FvxaAIxQtEvOjlRn57as2sxRaYz6IHtKobX5VxUyFe8TjZMm3M-PHkV?purpose=fullsize"
-          alt="Team collaborating"
-        />
-        <img
-          src="https://images.openai.com/static-rsc-4/X8FkOCvpTLXR_fMl24bHpQUegiZngulXFAqLePU6P1tLmEhLuI0_RlL8i_7BT-IViAEk819MfGIxCT10FtQaHcThJKw8bRiO-kT8ZXlu4_aqgIJ3iTknVZApPmMHo_KXijB0uUa8wiAyhZlzsJWC9yNCgM5AnVoILfOeGh1YtFTDkp_WR4p3ITG7RGzu9-jC?purpose=fullsize"
-          alt="Design sketches"
-        />
-        <img
-          src="https://images.openai.com/static-rsc-4/uPaoZntLh3qWMKT2Cfqg5HVfOgNK-su8Y721q-JPUscKJyArqQVuT77bwhUHToXdrn4TzduhUCxz0TulEDGjx8t1XMLZCxe1BoHElAiRCrwqwtCYpVmoCu_5GpBWQQCSafB-EzgTNnYkZ9q060igSl2tF_-bA-5qUjfBlBQMUToUNxivpXAWnd46DkWL0iob?purpose=fullsize"
-          alt="Developers at desk"
-        />
-      </div>
 
-      <!-- Main Content Card -->
-      <div class="content-card">
-        <div class="header-top">
-          <span class="badge">About Us</span>
-          <span class="subtitle">Creative Web Studio</span>
+    <main>
+      <section class="hero about-hero">
+        <div class="hero-content">
+          <h1>About Kitty Studio</h1>
+          <p class="desc">
+            We create beautiful, fast, and user-friendly websites that help
+            businesses grow online. From idea to launch, we transform your
+            vision into a digital experience that people love.
+          </p>
+          <a class="btn primary" href="project.html">Explore Our Work</a>
         </div>
 
-        <h1 class="title">About Kitty Studio</h1>
-        <p class="description">
-          We build modern websites for businesses, startups, and personal
-          brands. Our goal is to create fast, responsive, and beautiful websites
-          that help clients grow online.
-        </p>
+        <div class="about-hero-media" aria-label="Kitty Studio project images">
+          <img
+            src="https://images.openai.com/static-rsc-4/X8FkOCvpTLXR_fMl24bHpQUegiZngulXFAqLePU6P1tLmEhLuI0_RlL8i_7BT-IViAEk819MfGIxCT10FtQaHcThJKw8bRiO-kT8ZXlu4_aqgIJ3iTknVZApPmMHo_KXijB0uUa8wiAyhZlzsJWC9yNCgM5AnVoILfOeGh1YtFTDkp_WR4p3ITG7RGzu9-jC?purpose=fullsize"
+            alt="Website planning desk"
+          />
+        </div>
+      </section>
 
-        <div class="divider"></div>
+      <section class="section light" id="who-we-are">
+        <div class="container about-split">
+          <div class="about-copy">
+            <h2>Who We Are</h2>
+            <p>
+              Kitty Studio is a creative web design and development studio
+              focused on building modern websites for businesses, startups, and
+              personal brands.
+            </p>
+            <p>
+              We believe every business deserves a professional online presence.
+              Our goal is to design websites that are not only beautiful but
+              also fast, responsive, and easy to use.
+            </p>
+            <p>
+              Whether you're launching a new company or growing an existing one,
+              we work closely with you to create websites that reflect your
+              brand and connect with your audience.
+            </p>
+          </div>
 
-        <!-- Stats Section -->
-        <div class="stats-grid">
-          <div class="stat-item">
-            <i class="fa-regular fa-circle-check icon"></i>
-            <h2>50+</h2>
+          <img
+            class="about-feature-image"
+            src="https://images.openai.com/static-rsc-4/uPaoZntLh3qWMKT2Cfqg5HVfOgNK-su8Y721q-JPUscKJyArqQVuT77bwhUHToXdrn4TzduhUCxz0TulEDGjx8t1XMLZCxe1BoHElAiRCrwqwtCYpVmoCu_5GpBWQQCSafB-EzgTNnYkZ9q060igSl2tF_-bA-5qUjfBlBQMUToUNxivpXAWnd46DkWL0iob?purpose=fullsize"
+            alt="Website design process"
+            loading="lazy"
+          />
+        </div>
+      </section>
+
+      <section class="section" id="story">
+        <div class="container about-split">
+          <div class="about-copy">
+            <h2>Our Story</h2>
+            <p>
+              Kitty Studio started with a passion for web design and technology.
+              What began as a learning journey quickly became a mission to help
+              businesses succeed online.
+            </p>
+            <p>
+              Every project we build teaches us something new. We continuously
+              improve our skills, explore modern design trends, and stay updated
+              with the latest web technologies to deliver better experiences for
+              our clients.
+            </p>
+          </div>
+
+          <div class="timeline">
+            <article>
+              <span>2025</span>
+              <p>Started learning HTML &amp; CSS</p>
+            </article>
+            <article>
+              <span>2026</span>
+              <p>Built first professional projects</p>
+            </article>
+            <article>
+              <span>Future</span>
+              <p>Helping businesses worldwide</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section light" id="mission">
+        <div class="container card-grid two">
+          <article class="card statement-card">
+            <h2>Mission</h2>
+            <p>
+              To create modern, responsive, and high-quality websites that help
+              businesses build trust and grow online.
+            </p>
+          </article>
+          <article class="card statement-card">
+            <p class="eyebrow">Vision</p>
+            <h2>Vision</h2>
+            <p>
+              To become a creative digital studio recognized for innovative
+              design, clean code, and outstanding user experiences.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="values">
+        <div class="container section-heading">
+          <h2>Our Values</h2>
+        </div>
+
+        <div class="container card-grid four">
+          <article class="card">
+            <h3>Creativity</h3>
+            <p>We believe great ideas create memorable experiences.</p>
+          </article>
+          <article class="card">
+            <h3>Quality</h3>
+            <p>
+              Every detail matters. We build websites with care and precision.
+            </p>
+          </article>
+          <article class="card">
+            <h3>Innovation</h3>
+            <p>We always explore new technologies and better solutions.</p>
+          </article>
+          <article class="card">
+            <h3>Collaboration</h3>
+            <p>Great websites are built through teamwork and communication.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section light" id="why-choose">
+        <div class="container section-heading">
+          <h2>Why Choose Kitty Studio?</h2>
+        </div>
+
+        <div class="container card-grid three">
+          <article class="card compact-card">
+            <h3>Modern Design</h3>
+            <p>Beautiful layouts inspired by the latest UI trends.</p>
+          </article>
+          <article class="card compact-card">
+            <h3>Responsive</h3>
+            <p>Looks perfect on phones, tablets, and desktops.</p>
+          </article>
+          <article class="card compact-card">
+            <h3>Fast Performance</h3>
+            <p>Optimized for speed and smooth browsing.</p>
+          </article>
+          <article class="card compact-card">
+            <h3>SEO Friendly</h3>
+            <p>Built with clean code to improve search visibility.</p>
+          </article>
+          <article class="card compact-card">
+            <h3>Easy Maintenance</h3>
+            <p>Simple structure that is easy to update.</p>
+          </article>
+          <article class="card compact-card">
+            <h3>Client Focused</h3>
+            <p>Your goals are always our priority.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="process">
+        <div class="container section-heading">
+          <h2>Our Process</h2>
+        </div>
+
+        <div class="container process-grid">
+          <article>
+            <span>01</span>
+            <h3>Discovery</h3>
+            <p>We understand your goals, audience, and ideas.</p>
+          </article>
+          <article>
+            <span>02</span>
+            <h3>Design</h3>
+            <p>Create wireframes and modern visual layouts.</p>
+          </article>
+          <article>
+            <span>03</span>
+            <h3>Development</h3>
+            <p>Transform designs into responsive websites using clean code.</p>
+          </article>
+          <article>
+            <span>04</span>
+            <h3>Launch</h3>
+            <p>Test everything carefully before publishing your website.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section light" id="team">
+        <div class="container section-heading">
+          <h2>Meet Our Team</h2>
+        </div>
+
+        <div class="container team-grid">
+          <article class="team-card featured-team">
+            <img
+              src="https://images.openai.com/static-rsc-4/bhq5FCgC4BlbBd9IYz2bAibYf57Cf7TEKX8YTpRF1vkxwTg5bJO5nZjBcuz9RHnhk0oYtzbHPasiF15EUufjV4xRwB3JmpSV-RI-sfmLISSxFiDaXXfEYOiN0ukqhn628MrD85Oe2FvxaAIxQtEvOjlRn57as2sxRaYz6IHtKobX5VxUyFe8TjZMm3M-PHkV?purpose=fullsize"
+              alt="Kitty Studio founder workspace"
+              loading="lazy"
+            />
+            <div>
+              <p>Founder</p>
+              <h3>Kimlang</h3>
+              <span>Front-End Developer</span>
+              <p>
+                Passionate about creating modern websites using HTML, CSS, and
+                JavaScript while continuously learning new technologies.
+              </p>
+            </div>
+          </article>
+
+          <article class="team-card">
+            <p>Future Team</p>
+            <h3>Designer</h3>
+            <span>Coming Soon</span>
+          </article>
+          <article class="team-card">
+            <p>Future Team</p>
+            <h3>Back-End Developer</h3>
+            <span>Coming Soon</span>
+          </article>
+          <article class="team-card">
+            <p>Future Team</p>
+            <h3>UI/UX Designer</h3>
+            <span>Coming Soon</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="skills">
+        <div class="container section-heading">
+          <p class="eyebrow">Skills</p>
+          <h2>Skills</h2>
+        </div>
+
+        <div class="container skills-list">
+          <div class="skill-row" style="--skill: 95%">
+            <div><span>HTML</span><strong>95%</strong></div>
+            <span class="skill-bar"><span></span></span>
+          </div>
+          <div class="skill-row" style="--skill: 90%">
+            <div><span>CSS</span><strong>90%</strong></div>
+            <span class="skill-bar"><span></span></span>
+          </div>
+          <div class="skill-row" style="--skill: 75%">
+            <div><span>JavaScript</span><strong>75%</strong></div>
+            <span class="skill-bar"><span></span></span>
+          </div>
+          <div class="skill-row" style="--skill: 90%">
+            <div><span>Responsive Design</span><strong>90%</strong></div>
+            <span class="skill-bar"><span></span></span>
+          </div>
+          <div class="skill-row" style="--skill: 80%">
+            <div><span>UI Design</span><strong>80%</strong></div>
+            <span class="skill-bar"><span></span></span>
+          </div>
+          <div class="skill-row" style="--skill: 85%">
+            <div><span>Git &amp; GitHub</span><strong>85%</strong></div>
+            <span class="skill-bar"><span></span></span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section light" id="technologies">
+        <div class="container section-heading">
+          <p class="eyebrow">Technologies</p>
+          <h2>Technologies</h2>
+        </div>
+
+        <div class="container tech-grid">
+          <article>
+            <span>H5</span>
+            <p>HTML5</p>
+          </article>
+          <article>
+            <span>C3</span>
+            <p>CSS3</p>
+          </article>
+          <article>
+            <span>JS</span>
+            <p>JavaScript</p>
+          </article>
+          <article>
+            <span>Git</span>
+            <p>Git</p>
+          </article>
+          <article>
+            <span>GH</span>
+            <p>GitHub</p>
+          </article>
+          <article>
+            <span>VS</span>
+            <p>VS Code</p>
+          </article>
+          <article>
+            <span>Fig</span>
+            <p>Figma</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="statistics">
+        <div class="container section-heading">
+          <p class="eyebrow">Statistics</p>
+          <h2>Statistics</h2>
+        </div>
+
+        <div class="container stats-grid four-stats">
+          <article class="stat-card">
+            <span>50+</span>
             <p>Projects Completed</p>
-          </div>
-          <div class="stat-item">
-            <i class="fa-solid fa-user-group icon"></i>
-            <h2>20+</h2>
+          </article>
+          <article class="stat-card">
+            <span>20+</span>
             <p>Happy Clients</p>
+          </article>
+          <article class="stat-card">
+            <span>100%</span>
+            <p>Responsive Websites</p>
+          </article>
+          <article class="stat-card">
+            <span>1+</span>
+            <p>Years Learning &amp; Building</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section light" id="testimonials">
+        <div class="container section-heading">
+          <p class="eyebrow">Testimonials</p>
+          <h2>Testimonials</h2>
+        </div>
+
+        <div class="container testimonial-grid">
+          <article class="testimonial-card">
+            <p>
+              "Kitty Studio delivered exactly what we wanted. The website is
+              clean, modern, and performs perfectly."
+            </p>
+            <span>&starf;&starf;&starf;&starf;&starf;</span>
+            <h3>Sarah</h3>
+          </article>
+          <article class="testimonial-card">
+            <p>
+              "The communication was excellent and the final design exceeded our
+              expectations."
+            </p>
+            <span>&starf;&starf;&starf;&starf;&starf;</span>
+            <h3>Michael</h3>
+          </article>
+          <article class="testimonial-card">
+            <p>
+              "Our business looks much more professional after launching our new
+              website."
+            </p>
+            <span>&starf;&starf;&starf;&starf;&starf;</span>
+            <h3>Emma</h3>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="faq">
+        <div class="container section-heading">
+          <p class="eyebrow">FAQ</p>
+          <h2>FAQ</h2>
+        </div>
+
+        <div class="container faq-list">
+          <details>
+            <summary>Do you build responsive websites?</summary>
+            <p>
+              Yes. Every website is optimized for desktop, tablet, and mobile
+              devices.
+            </p>
+          </details>
+          <details>
+            <summary>Which technologies do you use?</summary>
+            <p>HTML, CSS, JavaScript, and modern web development tools.</p>
+          </details>
+          <details>
+            <summary>Can you redesign an existing website?</summary>
+            <p>
+              Absolutely. We can improve both the design and performance of your
+              current website.
+            </p>
+          </details>
+          <details>
+            <summary>How long does a project take?</summary>
+            <p>
+              Depending on complexity, most websites take between one and four
+              weeks.
+            </p>
+          </details>
+        </div>
+      </section>
+
+      <section class="cta-section" id="about-contact">
+        <div class="container cta-box about-cta">
+          <div>
+            <p class="eyebrow">Start Your Project</p>
+            <h2>Let's Build Something Amazing Together</h2>
+            <p>
+              Whether you're starting a new business or upgrading your current
+              website, Kitty Studio is ready to help you create an online
+              presence that stands out.
+            </p>
           </div>
-          <div class="stat-item">
-            <i class="fa-solid fa-award icon"></i>
-            <h2>1+</h2>
-            <p>Years Learning & Building</p>
+          <a class="btn primary" href="mailto:hello@kittystudio.com"
+            >Start Your Project</a
+          >
+        </div>
+      </section>
+    </main>
+
+    <footer class="about-footer">
+      <div class="container footer-grid">
+        <div>
+          <h2>Kitty Studio</h2>
+          <p>Modern websites crafted with creativity and passion.</p>
+        </div>
+
+        <nav aria-label="Footer navigation">
+          <h3>Navigation</h3>
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="service.html">Services</a>
+          <a href="project.html">Projects</a>
+          <a href="pricing.html">Pricing</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+
+        <div>
+          <h3>Social Media</h3>
+          <div class="footer-links">
+            <a href="#">Facebook</a>
+            <a href="#">Instagram</a>
+            <a href="#">LinkedIn</a>
+            <a href="#">GitHub</a>
           </div>
         </div>
 
-        <!-- Mission & Vision Cards -->
-        <div class="bottom-cards">
-          <div class="info-card">
-            <h3><i class="fa-solid fa-bullseye"></i> Our Mission</h3>
-            <p>
-              To help people launch professional websites with clean design and
-              great user experience.
-            </p>
-          </div>
-          <div class="info-card">
-            <h3><i class="fa-regular fa-eye"></i> Our Vision</h3>
-            <p>
-              To become a creative studio that turns ideas into powerful digital
-              products.
-            </p>
-          </div>
+        <div>
+          <h3>Email</h3>
+          <a href="mailto:hello@kittystudio.com">hello@kittystudio.com</a>
         </div>
       </div>
-    </div>
+
+      <p class="footer-bottom">
+        &copy; 2026 Kitty Studio. All rights reserved.
+      </p>
+    </footer>
   </body>
 </html>
